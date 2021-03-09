@@ -3,5 +3,5 @@ image:
 
 # startup tasks
 tasks:
-- init: ./mvnw package -DskipTests
-  command: java -jar target/*.jar
+- init: ./gradlew build
+  command: ./gradlew run
