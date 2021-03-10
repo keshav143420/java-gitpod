@@ -14,6 +14,6 @@ class AppTest {
 
     @Test
     void sampleGreenTest(){
-        assertEquals(1, 2);
+        assertEquals(1, 1);
     }
 }
