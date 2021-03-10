@@ -1,0 +1,7 @@
+image:
+  file: .gitpod.Dockerfile
+
+# startup tasks
+tasks:
+- init: ./gradlew build
+  command: ./gradlew run
