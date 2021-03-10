@@ -29,7 +29,7 @@ dependencies {
 
 application {
     // Define the main class for the application.
-    mainClass = 'java.gitpod.App'
+    mainClass = 'com.kk.App'
 }
 
 tasks.named('test') {
