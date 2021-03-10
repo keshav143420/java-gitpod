@@ -3,5 +3,11 @@ image:
 
 # startup tasks
 tasks:
-- init: ./gradlew build
-  command: ./gradlew run
+- init: ./gradlew app:build
+  command: >
+    ./gradlew app:test
+    ./gradlew app:run
+
+vscode:
+  extensions:
+    - redhat.java
